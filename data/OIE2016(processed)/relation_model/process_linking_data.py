@@ -137,8 +137,8 @@ def process(source_file, rel_file, target_file, pretrained_model):
     else:
         raise FileNotFoundError
 
-    with open(f"relation_model_data_linking/{source_file}", 'r', encoding='utf-8') as fin, \
-            open(f"relation_model_data_linking/{target_file}", 'w', encoding='utf-8') as fout:
+    with open(source_file, 'r', encoding='utf-8') as fin, \
+            open(target_file, 'w', encoding='utf-8') as fout:
         for line in fin:
             ext = json.loads(line.strip())
             ext_dict = tokenize_sentences(ext, auto_tokenizer, special_tokens, rel_id_file)

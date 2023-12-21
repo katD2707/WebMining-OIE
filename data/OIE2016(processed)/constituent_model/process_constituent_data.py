@@ -76,8 +76,8 @@ def process(source_file, ent_rel_file, target_file, pretrained_model, max_length
 
     ent_rel_id = json.load(open(ent_rel_file, 'r', encoding='utf-8'))["id"]
 
-    with open(f"joint_model_data_albert/{source_file}", 'r', encoding='utf-8') as fin, \
-            open(f"joint_model_data_albert/{target_file}", 'w', encoding='utf-8') as fout:
+    with open(source_file, 'r', encoding='utf-8') as fin, \
+            open(target_file, 'w', encoding='utf-8') as fout:
         for line in fin:
             ext = json.loads(line.strip())
             ext_dict = tokenize_sentences(ext, auto_tokenizer)
