@@ -1,6 +1,6 @@
 save_dir: save_results/
 
-data_dir: data/OIE2016(processed)/constituent_model/
+data_dir: data/OIE2016(processed)/constituent_model/joint_model_data_albert
 train_file: train.json
 dev_file: dev.json
 test_file: test.json

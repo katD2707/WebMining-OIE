@@ -1,6 +1,6 @@
 save_dir: save_results
 
-data_dir: data/OIE2016(processed)/relation_model/
+data_dir: data/OIE2016(processed)/relation_model/relation_model_data_linking
 train_file: train.json
 dev_file: dev.json
 test_file: test.json
