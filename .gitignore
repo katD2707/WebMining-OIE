@@ -1,5 +1,7 @@
 .DS_Store
 .idea
 benchmark.json
-save_results
-data/OIE2016(processed)
+save_results/models/constituent/*
+save_results/models/relation/*
+data/OIE2016(processed)/constituent_model/joint_model_data_albert/*
+data/OIE2016(processed)/relation_model/relation_model_data_linking/*
