@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+benchmark.json
+save_results
+data/OIE2016(processed)
