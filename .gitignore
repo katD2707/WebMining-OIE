@@ -1,3 +1,5 @@
 .DS_Store
 .idea
 benchmark.json
+save_results/models/constituent/*
+save_results/models/relation/*
