@@ -1,0 +1,4 @@
+cohere
+tiktoken
+openai==1.4.0
+langchain
